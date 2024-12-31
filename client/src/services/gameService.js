@@ -1,6 +1,6 @@
 import axios from 'axios';
 const API_URL = process.env.NODE_ENV === 'production'
-	? 'https://api.wordwave.us/game'
+	? 'https://wordwave-api.ethanlaj.dev/game'
 	: 'http://localhost:3001/game';
 
 export default class GameService {

@@ -20,9 +20,8 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:5000',
-    'https://wordwave.us',
-    'https://www.wordwave.us',
-    'https://api.wordwave.us',
+    'https://wordwave.ethanlaj.dev',
+    'https://wordwave-api.ethanlaj.dev'
   ],
 }));
 app.use(logger('dev'));
