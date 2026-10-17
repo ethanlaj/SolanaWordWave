@@ -17,7 +17,8 @@ class OpenAIService {
 
 		const params = {
 			messages: [{ role: 'user', content: prompt }],
-			model: 'gpt-3.5-turbo-1106',
+			model: 'gpt-6-luna',
+			reasoning_effort: 'none',
 			response_format: { "type": "json_object" },
 		};
 
@@ -60,7 +61,8 @@ class OpenAIService {
 
 		const params = {
 			messages: [{ role: 'user', content: prompt }],
-			model: 'gpt-3.5-turbo-1106',
+			model: 'gpt-6-luna',
+			reasoning_effort: 'none',
 			response_format: { "type": "json_object" },
 		};
 
